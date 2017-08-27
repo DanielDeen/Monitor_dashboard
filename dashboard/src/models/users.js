@@ -10,8 +10,8 @@
 import * as usersService from '../services/users';
 
 export default {
-  namespace: 'users',
-  state: {
+    namespace: 'users',
+    state: {
     list: [],
     total: null,
     page: null,
@@ -33,6 +33,12 @@ export default {
       	},
       });
     },
+
+    *remove({ payload: id }, { call, put, select }) {
+      yield call(usersService.remove, id);
+      yield put({ type: 'reload' });
+    },
+
   },
   subscriptions: {
     setup({ dispatch, history }) {

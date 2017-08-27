@@ -9,19 +9,22 @@ function Header ({ location }) {
       mode="horizontal"
       theme="dark"
     >
-    <Menu.Item key="/users">
-      <Link to="/users"><Icon type="bars" />Users</Link>
-    </Menu.Item>
-    <Menu.Item key="/">
-			<Link to="/"><Icon type="home" />Home</Link>
+	    <Menu.Item key="/tour">
+	      <Link to="/users"><Icon type="bars" />导航栏</Link>
+	    </Menu.Item>
+
+	    <Menu.Item key="/">
+				<Link to="/"><Icon type="home" />系统状态</Link>
 		</Menu.Item>
-		<Menu.Item key="/404">
-			<Link to="/page-you-dont-know"><Icon type="frown-circle" />404</Link>
+
+		<Menu.Item key="/monitor">
+				<Link to="/monitor"><Icon type="desktop" />监控指标状态</Link>
 		</Menu.Item>
-		<Menu.Item key="/antd">
-			<a href="https://github.com/dvajs/dva" target="_blank">dva</a>
+
+		<Menu.Item key="/users">
+				<Link to="/monitor"><Icon type="user" />用户监控</Link>
 		</Menu.Item>
-		</Menu>
+	</Menu>
 	)
 }
 
