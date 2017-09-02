@@ -35,14 +35,15 @@ const data = [{
   		address: 'Sidney No. 1 Lake Park',
 	}];
 
-function Monitor () {
+class Monitor extends React.Component{
+	render() {
 
-	return (
-		<div style={{ textAlign:"center" }}>
-			<Table columns={columns} dataSource={data} />
-		</div>
-	);
+		return (
+			<div style={{ textAlign:"center" }}>
+				<Table columns={columns} dataSource={data} />
+			</div>
+		);
+	}
 }
-
 
 export default Monitor;
