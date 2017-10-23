@@ -10,7 +10,7 @@ function Header ({ location }) {
       theme="dark"
     >
 	    <Menu.Item key="/tour">
-	      <Link to="/users"><Icon type="bars" />M-Swift</Link>
+	      <Link><Icon type="bars" />M-Swift</Link>
 	    </Menu.Item>
 
 	    <Menu.Item key="/">
@@ -22,7 +22,7 @@ function Header ({ location }) {
 		</Menu.Item>
 
 		<Menu.Item key="/users">
-				<Link to="/monitor"><Icon type="eye-o" />用户管理</Link>
+				<Link to="/users"><Icon type="eye-o" />用户管理</Link>
 		</Menu.Item>
 	</Menu>
 	)
