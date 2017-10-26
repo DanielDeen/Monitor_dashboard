@@ -4,13 +4,17 @@ import IndexPage from './routes/IndexPage';
 
 import Users from './routes/Users.js';
 import Monitor from './routes/MonitorRoute.js';
+import SwiftLog from './routes/SwiftLog.js';
+import LogIn from './routes/LogIn.js';
 
 function RouterConfig({ history }) {
   	return (
     	<Router history={history}>
-      		<Route path="/" component={IndexPage} />
+    		<Route path="/" component={LogIn} />
+      		<Route path="/monitor" component={IndexPage} />
+      		<Route path="/service" component={Monitor} />
+      		<Route path="/log" component={SwiftLog} />
       		<Route path="/users" component={Users} />
-      		<Route path="/monitor" component={Monitor} />
     	</Router>
   );
 }

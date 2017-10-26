@@ -9,20 +9,20 @@ function Header ({ location }) {
       mode="horizontal"
       theme="dark"
     >
-	    <Menu.Item key="/tour">
-	      <Link><Icon type="bars" />M-Swift</Link>
+	    <Menu.Item key="/">
+	      <Link to="/"><Icon type="bars" />Swift监控系统</Link>
 	    </Menu.Item>
 
-	    <Menu.Item key="/">
-				<Link to="/"><Icon type="home" />系统状态</Link>
+	    <Menu.Item key="/service">
+				<Link to="/service"><Icon type="home" />系统服务状态</Link>
 		</Menu.Item>
 
-		<Menu.Item key="/monitor">
-				<Link to="/monitor"><Icon type="desktop" />监控指标状态</Link>
+		<Menu.Item key="/log">
+				<Link to="/log"><Icon type="desktop" />系统日志分析</Link>
 		</Menu.Item>
 
 		<Menu.Item key="/users">
-				<Link to="/users"><Icon type="eye-o" />用户管理</Link>
+				<Link to="/users"><Icon type="eye-o" />存储用户管理</Link>
 		</Menu.Item>
 	</Menu>
 	)
