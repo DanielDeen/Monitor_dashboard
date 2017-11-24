@@ -30,29 +30,34 @@ function Users({ dispatch,list: dataSource,loading, total, page: current }) {
 
 	const columns = [
 	{
-      title: 'Name',
+      title: '用户',
       dataIndex: 'name',
       key: 'name',
       render: text => <a href="">{text}</a>,
     },
     {
-      title: 'Email',
+      title: '存储空间',
       dataIndex: 'email',
       key: 'email',
     },
     {
-      title: 'Website',
+      title: '对象数目',
       dataIndex: 'website',
       key: 'website',
     },
     {
-      title: 'Operation',
+      title: '已使用量',
+      dataIndex: 'website',
+      key: 'website',
+    },
+    {
+      title: '设置',
       key: 'operation',
       render: (text, { id }) => (
         <span className={styles.operation}>
-          <a href="">Edit</a>
-          <Popconfirm title="Confirm to delete?" onConfirm={deleteHandler.bind(null, id)}>
-            <a href="">Delete</a>
+          <a href="">编辑</a>
+          <Popconfirm title="确定?" onConfirm={deleteHandler.bind(null, id)}>
+            <a href="">删除用户</a>
           </Popconfirm>
         </span>
       ),

@@ -26,3 +26,7 @@
 .list code {
   background: #f7f7f7;
 }
+
+.ant-tag {
+  margin-bottom: 8px;
+}

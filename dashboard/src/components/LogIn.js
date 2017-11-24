@@ -69,17 +69,12 @@ class LogIn extends React.Component {
                         <br/>  Or &nbsp;&nbsp;<a href="">注册</a>
                     </FormItem>
                 </Form>
-
                 </div>
             </Content>
             <Footer style={{ textAlign: 'center' }}>
                 MonitorDashboard ©2017 Created by Daniel
             </Footer>
         </Layout>
-
-
-
-        
     );
   }
 }

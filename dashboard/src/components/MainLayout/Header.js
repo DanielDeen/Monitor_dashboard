@@ -9,8 +9,8 @@ function Header ({ location }) {
       mode="horizontal"
       theme="dark"
     >
-	    <Menu.Item key="/">
-	      <Link to="/"><Icon type="bars" />Swift监控系统</Link>
+	    <Menu.Item key="/monitor">
+	      <Link to="/monitor"><Icon type="bars" />Swift监控系统</Link>
 	    </Menu.Item>
 
 	    <Menu.Item key="/service">

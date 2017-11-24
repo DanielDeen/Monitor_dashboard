@@ -56,7 +56,7 @@ const Event = ({index,selectedIndex,distance,width=12,height=0,onClick,event : {
 
 		return <Tooltip placement="bottom" title="tip">
 					<div className = "event-content-red"
-						style{{top:` ${top}px`,height : `${height}px`}}></div>
+						style={{top:` ${top}px`,height : `${height}px`}}></div>
 				</Tooltip>
 	}
 
