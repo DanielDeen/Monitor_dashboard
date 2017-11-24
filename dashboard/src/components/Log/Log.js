@@ -4,8 +4,8 @@ import { routerRedux } from 'dva/router';
 import { Table,Icon } from 'antd';
 import HorizontalTimeline from '../timeline/HorizontalTimeline';
 import { Col, Row } from 'antd';
-import moment from 'moment';
-
+import moment from 'moment'; 
+import LineChart from '../timeline/Line';
 
 const columns = [{
 		title: '时间戳',
@@ -59,6 +59,11 @@ class Log extends React.Component{
 	render() {
 		return (
 			<div>
+
+				<div>  
+	                <LineChart />  
+            	</div> 
+
 				<div style={{ marginLeft:"40px",marginRight: 40}}>
 					<Row>
 						<Col span={8}><Icon type="clock-circle"/>
