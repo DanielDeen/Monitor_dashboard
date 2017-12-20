@@ -23,12 +23,15 @@ function IndexPage( {loaction} ) {
     }];
 
     const data = [];
-    for (let i = 0; i < 100; i++) {
+    for (let i = 31; i > 0; i--) {
+        if (i < 10){
+          i = '0' + i;
+        }
         data.push({
           key: i,
-          time: `Edward King ${i}`,
-          address: 32,
-          info: `London, Park Lane no. ${i}`,
+          time: `2017-3-30 9:${i}`,
+          address: `192.168.2.80`,
+          info: `swifft-account服务异常`,
         });
     }
 
@@ -63,7 +66,7 @@ function IndexPage( {loaction} ) {
             <h3>报警汇总</h3>
             </div>
             <div style={{ marginTop: 15 }}>
-            <Table columns={columns} dataSource={data} pagination={{ pageSize: 50 }} scroll={{ y: 320 }} />
+            <Table columns={columns} dataSource={data} pagination={{ pageSize: 15 }} scroll={{ y: 320 }} />
             </div>
           </div>  
       );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'dva';
 import { routerRedux } from 'dva/router';
-import { Table, Pagination, Popconfirm, Button } from 'antd';
+import { Table, Pagination, Popconfirm, Button,Input,Col,Icon } from 'antd';
 import styles from './Users.css';
 import { PAGE_SIZE } from '../../constants';
 
@@ -42,8 +42,8 @@ function Users({ dispatch,list: dataSource,loading, total, page: current }) {
     },
     {
       title: '对象数目',
-      dataIndex: 'website',
-      key: 'website',
+      dataIndex: 'phone',
+      key: 'phone',
     },
     {
       title: '已使用量',
@@ -65,24 +65,33 @@ function Users({ dispatch,list: dataSource,loading, total, page: current }) {
   	];
   return (
     <div className={styles.normal}>
-      <div>
-        <div className={styles.create}>
+        <div style={{ marginTop: 20 }}>
+            <Col span={16}>
+                   <Input placeholder="查找用户"></Input>
+            </Col>
+            <Col span={1}/>
+            <Col>
+                <Button type="primary" icon="search">查询</Button>
+            </Col>
         </div>
-        <Table
-          columns={columns}
-          dataSource={dataSource}
-          loading={loading}
-          rowKey={record => record.id}
-          pagination={false}
-        />
-        <Pagination
-          className="ant-table-pagination"
-          total={total}
-          current={current}
-          pageSize={PAGE_SIZE}
-          onChange={pageChangeHandler}
-        />
-      </div>
+        <div style={{ marginTop: 15 }}>
+            <div className={styles.create}>
+            </div>
+            <Table
+              columns={columns}
+              dataSource={dataSource}
+              loading={loading}
+              rowKey={record => record.id}
+              pagination={false}
+            />
+            <Pagination
+                  className="ant-table-pagination"
+                  total={total}
+                  current={current}
+                  pageSize={PAGE_SIZE}
+                  onChange={pageChangeHandler}
+            />
+        </div>
     </div>
   );
 }

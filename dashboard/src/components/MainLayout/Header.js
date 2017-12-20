@@ -1,6 +1,20 @@
 import React from 'react';
-import { Menu, Icon } from 'antd';
+import { Menu, Dropdown, Icon } from 'antd';
 import { Link } from 'dva/router';
+import { DatePicker } from 'antd';
+const { MonthPicker, RangePicker } = DatePicker;
+
+const menu = (
+  <Menu>
+    <Menu.Item key="0">
+      <a href="http://www.alipay.com/">用户详情</a>
+    </Menu.Item>
+    <Menu.Divider />
+    <Menu.Item key="1">
+      <a href="#">退出</a>
+    </Menu.Item>
+  </Menu>
+);
 
 function Header ({ location }) {
   return (
@@ -24,6 +38,15 @@ function Header ({ location }) {
 		<Menu.Item key="/users">
 				<Link to="/users"><Icon type="eye-o" />存储用户管理</Link>
 		</Menu.Item>
+		<Menu.Item style={{marginLeft: 600}}>
+			<Dropdown overlay={menu} trigger={['click']}>
+			    <a className="ant-dropdown-link" style={{ color: "#108ee9" }}>
+			      <Icon type="user" />Admin
+			    </a>
+			  </Dropdown>
+				
+		</Menu.Item>
+
 	</Menu>
 	)
 }

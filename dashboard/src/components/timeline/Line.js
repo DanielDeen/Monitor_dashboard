@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import data from './data.json'; 
 
 const Line = createG2(chart => {
-  chart.line().position('time*price').color('name').shape('spline').size(2);
+  chart.line().position('time*total').color('Request').shape('spline').size(2);
   chart.render();
 });
 
@@ -15,8 +15,9 @@ class LineChart extends Component {
 	    data: data,
 	    width: 1200,
 	    height: 250,
+	    forceFit: true,
 	    plotCfg: {
-	      margin: [10, 100, 50, 120],
+	    margin: [10, 100, 50, 50],
 	    },
   	}
 
@@ -28,6 +29,7 @@ class LineChart extends Component {
 		          width={this.state.width}
 		          height={this.state.height}
 		          plotCfg={this.state.plotCfg}
+		          forceFit={this.state.forceFit}
 		        />
       		</div>
     	);

@@ -15,63 +15,63 @@ class Service extends React.Component{
     				</Badge>系统服务状态
 			    </div>
 				<div style={{ background: '#ECECEC', padding: '5px', marginTop: 10 }}>
-				    <Row >
-				      <Col span={6}>
+				    <Row gutter={8}>
+				      <Col span={4}>
 				        <Card title="租户空间服务" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
-				        <Card title="租户空间审计" >
+				      <Col span={4}>
+				        <Card title="租户空间审计" className={styles.error}>
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="租户空间复制" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
-				        <Card title="子存储空间服务" >
+				      <Col span={4}>
+				        <Card title="子存储空间服务" className={styles.error}>
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
-				        <Card title="子存储空间审计" >
+				      <Col span={4}>
+				        <Card title="子存储空间审计" className={styles.error}>
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="子存储空间复制" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="子存储空间更新" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="对象服务" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="对象审计" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="对象复制" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="对象更新" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="API服务" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
@@ -85,62 +85,62 @@ class Service extends React.Component{
 			    </div>
 				<div style={{ background: '#ECECEC', padding: '5px', marginTop: 10 }}>
 				    <Row >
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="租户空间服务" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="租户空间审计" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="租户空间复制" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="子存储空间服务" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="子存储空间审计" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="子存储空间复制" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
-				        <Card title="子存储空间更新" >
+				      <Col span={4}>
+				        <Card title="子存储空间更新" className={styles.error}>
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="对象服务" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="对象审计" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
-				        <Card title="对象复制" >
+				      <Col span={4}>
+				        <Card title="对象复制" className={styles.error}>
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="对象更新" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="API服务" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
@@ -154,62 +154,62 @@ class Service extends React.Component{
 			    </div>
 				<div style={{ background: '#ECECEC', padding: '5px', marginTop: 10 }}>
 				    <Row >
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="租户空间服务" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="租户空间审计" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="租户空间复制" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="子存储空间服务" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="子存储空间审计" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="子存储空间复制" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="子存储空间更新" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="对象服务" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="对象审计" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="对象复制" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="对象更新" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
-				      <Col span={6}>
+				      <Col span={4}>
 				        <Card title="API服务" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>

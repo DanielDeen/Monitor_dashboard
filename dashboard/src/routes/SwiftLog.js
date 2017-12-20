@@ -8,7 +8,7 @@ function SwiftLog({ dispatch,location,monitor }) {
 
   	return (
     	<MainLayout location={location}>
-    		<div className={styles.normal}>
+    		<div >
     			<Log />
     		</div>
     	</MainLayout>

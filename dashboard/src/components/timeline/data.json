@@ -1,249 +1,497 @@
 [{
-	"time":"9/1",
-	"price":10,
-	"name":"商品A"
+	"time":"9:1",
+	"total":10,
+	"Request":"GET"
 },{
-	"time":"9/1",
-	"price":30,
-	"name":"商品B"
+	"time":"9:1",
+	"total":80,
+	"Request":"DELETE"
 },{
-	"time":"9/2",
-	"price":12,
-	"name":"商品A"
+	"time":"9:1",
+	"total":30,
+	"Request":"PUT"
 },{
-	"time":"9/2",
-	"price":32,
-	"name":"商品B"
+	"time":"9:1",
+	"total":90,
+	"Request":"PUSH"
 },{
-	"time":"9/3",
-	"price":11,
-	"name":"商品A"
+	"time":"9:2",
+	"total":12,
+	"Request":"GET"
 },{
-	"time":"9/3",
-	"price":35,
-	"name":"商品B"
+	"time":"9:2",
+	"total":88,
+	"Request":"DELETE"
 },{
-	"time":"9/4",
-	"price":15,
-	"name":"商品A"
+	"time":"9:2",
+	"total":32,
+	"Request":"PUT"
 },{
-	"time":"9/4",
-	"price":40,
-	"name":"商品B"
+	"time":"9:2",
+	"total":88,
+	"Request":"PUSH"
 },{
-	"time":"9/5",
-	"price":20,
-	"name":"商品A"
+	"time":"9:3",
+	"total":11,
+	"Request":"GET"
 },{
-	"time":"9/5",
-	"price":42,
-	"name":"商品B"
+	"time":"9:3",
+	"total":35,
+	"Request":"PUT"
 },{
-	"time":"9/6",
-	"price":22,
-	"name":"商品A"
+	"time":"9:3",
+	"total":70,
+	"Request":"DELETE"
 },{
-	"time":"9/6",
-	"price":35,
-	"name":"商品B"
+	"time":"9:3",
+	"total":60,
+	"Request":"PUSH"
 },{
-	"time":"9/7",
-	"price":21,
-	"name":"商品A"
+	"time":"9:4",
+	"total":15,
+	"Request":"GET"
 },{
-	"time":"9/7",
-	"price":36,
-	"name":"商品B"
+	"time":"9:4",
+	"total":40,
+	"Request":"PUT"
 },{
-	"time":"9/8",
-	"price":25,
-	"name":"商品A"
+	"time":"9:4",
+	"total":75,
+	"Request":"DELETE"
 },{
-	"time":"9/8",
-	"price":31,
-	"name":"商品B"
+	"time":"9:4",
+	"total":65,
+	"Request":"PUSH"
 },{
-	"time":"9/9",
-	"price":31,
-	"name":"商品A"
+	"time":"9:5",
+	"total":20,
+	"Request":"GET"
 },{
-	"time":"9/9",
-	"price":35,
-	"name":"商品B"
+	"time":"9:5",
+	"total":42,
+	"Request":"PUT"
 },{
-	"time":"9/10",
-	"price":32,
-	"name":"商品A"
+	"time":"9:5",
+	"total":100,
+	"Request":"PUSH"
 },{
-	"time":"9/10",
-	"price":36,
-	"name":"商品B"
+	"time":"9:5",
+	"total":78,
+	"Request":"DELETE"
 },{
-	"time":"9/11",
-	"price":28,
-	"name":"商品A"
+	"time":"9:6",
+	"total":22,
+	"Request":"GET"
 },{
-	"time":"9/11",
-	"price":40,
-	"name":"商品B"
+	"time":"9:6",
+	"total":35,
+	"Request":"PUT"
 },{
-	"time":"9/12",
-	"price":29,
-	"name":"商品A"
+	"time":"9:6",
+	"total":120,
+	"Request":"PUSH"
 },{
-	"time":"9/12",
-	"price":42,
-	"name":"商品B"
+	"time":"9:6",
+	"total":110,
+	"Request":"DELETE"
 },{
-	"time":"9/13",
-	"price":40,
-	"name":"商品A"
+	"time":"9:7",
+	"total":21,
+	"Request":"GET"
 },{
-	"time":"9/13",
-	"price":40,
-	"name":"商品B"
+	"time":"9:7",
+	"total":36,
+	"Request":"PUT"
 },{
-	"time":"9/14",
-	"price":41,
-	"name":"商品A"
+	"time":"9:7",
+	"total":90,
+	"Request":"PUSH"
 },{
-	"time":"9/14",
-	"price":38,
-	"name":"商品B"
+	"time":"9:7",
+	"total":10,
+	"Request":"DELETE"
 },{
-	"time":"9/15",
-	"price":45,
-	"name":"商品A"
+	"time":"9:8",
+	"total":25,
+	"Request":"GET"
 },{
-	"time":"9/15",
-	"price":40,
-	"name":"商品B"
+	"time":"9:8",
+	"total":31,
+	"Request":"PUT"
 },{
-	"time":"9/16",
-	"price":50,
-	"name":"商品A"
+	"time":"9:8",
+	"total":88,
+	"Request":"PUSH"
 },{
-	"time":"9/16",
-	"price":40,
-	"name":"商品B"
+	"time":"9:8",
+	"total":1,
+	"Request":"DELETE"
 },{
-	"time":"9/17",
-	"price":65,
-	"name":"商品A"
+	"time":"9:9",
+	"total":31,
+	"Request":"GET"
 },{
-	"time":"9/17",
-	"price":38,
-	"name":"商品B"
+	"time":"9:9",
+	"total":35,
+	"Request":"PUT"
 },{
-	"time":"9/18",
-	"price":45,
-	"name":"商品A"
+	"time":"9:9",
+	"total":90,
+	"Request":"PUSH"
 },{
-	"time":"9/18",
-	"price":36,
-	"name":"商品B"
+	"time":"9:9",
+	"total":0,
+	"Request":"DELETE"
 },{
-	"time":"9/19",
-	"price":50,
-	"name":"商品A"
+	"time":"9:10",
+	"total":32,
+	"Request":"GET"
 },{
-	"time":"9/19",
-	"price":30,
-	"name":"商品B"
+	"time":"9:10",
+	"total":36,
+	"Request":"PUT"
 },{
-	"time":"9/20",
-	"price":51,
-	"name":"商品A"
+	"time":"9:10",
+	"total":50,
+	"Request":"PUSH"
 },{
-	"time":"9/20",
-	"price":29,
-	"name":"商品B"
+	"time":"9:10",
+	"total":1,
+	"Request":"DELETE"
 },{
-	"time":"9/21",
-	"price":65,
-	"name":"商品A"
+	"time":"9:11",
+	"total":28,
+	"Request":"GET"
 },{
-	"time":"9/21",
-	"price":28,
-	"name":"商品B"
+	"time":"9:11",
+	"total":40,
+	"Request":"PUT"
 },{
-	"time":"9/22",
-	"price":60,
-	"name":"商品A"
+	"time":"9:11",
+	"total":60,
+	"Request":"PUSH"
 },{
-	"time":"9/22",
-	"price":25,
-	"name":"商品B"
+	"time":"9:11",
+	"total":1,
+	"Request":"DELETE"
 },{
-	"time":"9/23",
-	"price":62,
-	"name":"商品A"
+	"time":"9:12",
+	"total":29,
+	"Request":"GET"
 },{
-	"time":"9/23",
-	"price":28,
-	"name":"商品B"
+	"time":"9:12",
+	"total":42,
+	"Request":"PUT"
 },{
-	"time":"9/24",
-	"price":65,
-	"name":"商品A"
+	"time":"9:12",
+	"total":55,
+	"Request":"PUSH"
 },{
-	"time":"9/24",
-	"price":29,
-	"name":"商品B"
+	"time":"9:12",
+	"total":3,
+	"Request":"DELETE"
 },{
-	"time":"9/25",
-	"price":45,
-	"name":"商品A"
+	"time":"9:13",
+	"total":40,
+	"Request":"GET"
 },{
-	"time":"9/25",
-	"price":30,
-	"name":"商品B"
+	"time":"9:13",
+	"total":40,
+	"Request":"PUT"
 },{
-	"time":"9/26",
-	"price":55,
-	"name":"商品A"
+	"time":"9:13",
+	"total":58,
+	"Request":"PUSH"
 },{
-	"time":"9/26",
-	"price":40,
-	"name":"商品B"
+	"time":"9:13",
+	"total":3,
+	"Request":"DELETE"
 },{
-	"time":"9/27",
-	"price":59,
-	"name":"商品A"
+	"time":"9:14",
+	"total":41,
+	"Request":"GET"
 },{
-	"time":"9/27",
-	"price":32,
-	"name":"商品B"
+	"time":"9:14",
+	"total":38,
+	"Request":"PUT"
 },{
-	"time":"9/28",
-	"price":52,
-	"name":"商品A"
+	"time":"9:14",
+	"total":66,
+	"Request":"PUSH"
 },{
-	"time":"9/28",
-	"price":33,
-	"name":"商品B"
+	"time":"9:14",
+	"total":5,
+	"Request":"DELETE"
 },{
-	"time":"9/29",
-	"price":53,
-	"name":"商品A"
+	"time":"9:15",
+	"total":45,
+	"Request":"GET"
 },{
-	"time":"9/29",
-	"price":34,
-	"name":"商品B"
+	"time":"9:15",
+	"total":40,
+	"Request":"PUT"
 },{
-	"time":"9/30",
-	"price":40,
-	"name":"商品A"
+	"time":"9:15",
+	"total":65,
+	"Request":"PUSH"
 },{
-	"time":"9/30",
-	"price":30,
-	"name":"商品B"
+	"time":"9:15",
+	"total":1,
+	"Request":"DELETE"
 },{
-	"time":"9/31",
-	"price":45,
-	"name":"商品A"
+	"time":"9:16",
+	"total":50,
+	"Request":"GET"
 },{
-	"time":"9/31",
-	"price":35,
-	"name":"商品B"		
+	"time":"9:16",
+	"total":40,
+	"Request":"PUT"
+},{
+	"time":"9:16",
+	"total":63,
+	"Request":"PUSH"
+},{
+	"time":"9:16",
+	"total":6,
+	"Request":"DELETE"
+},{
+	"time":"9:17",
+	"total":65,
+	"Request":"GET"
+},{
+	"time":"9:17",
+	"total":38,
+	"Request":"PUT"
+},{
+	"time":"9:17",
+	"total":70,
+	"Request":"PUSH"
+},{
+	"time":"9:17",
+	"total":2,
+	"Request":"DELETE"
+},{
+	"time":"9:18",
+	"total":45,
+	"Request":"GET"
+},{
+	"time":"9:18",
+	"total":36,
+	"Request":"PUT"
+},{
+	"time":"9:18",
+	"total":70,
+	"Request":"PUSH"
+},{
+	"time":"9:18",
+	"total":0,
+	"Request":"DELETE"
+},{
+	"time":"9:19",
+	"total":50,
+	"Request":"GET"
+},{
+	"time":"9:19",
+	"total":30,
+	"Request":"PUT"
+},{
+	"time":"9:19",
+	"total":80,
+	"Request":"PUSH"
+},{
+	"time":"9:19",
+	"total":10,
+	"Request":"DELETE"
+},{
+	"time":"9:20",
+	"total":51,
+	"Request":"GET"
+},{
+	"time":"9:20",
+	"total":29,
+	"Request":"PUT"
+},{
+	"time":"9:20",
+	"total":80,
+	"Request":"PUSH"
+},{
+	"time":"9:20",
+	"total":10,
+	"Request":"DELETE"
+},{
+	"time":"9:21",
+	"total":65,
+	"Request":"GET"
+},{
+	"time":"9:21",
+	"total":28,
+	"Request":"PUT"
+},{
+	"time":"9:21",
+	"total":75,
+	"Request":"PUSH"
+},{
+	"time":"9:21",
+	"total":8,
+	"Request":"DELETE"
+},{
+	"time":"9:22",
+	"total":60,
+	"Request":"GET"
+},{
+	"time":"9:22",
+	"total":25,
+	"Request":"PUT"
+},{
+	"time":"9:22",
+	"total":72,
+	"Request":"PUSH"
+},{
+	"time":"9:22",
+	"total":6,
+	"Request":"DELETE"
+},{
+	"time":"9:23",
+	"total":62,
+	"Request":"GET"
+},{
+	"time":"9:23",
+	"total":28,
+	"Request":"PUT"
+},{
+	"time":"9:23",
+	"total":72,
+	"Request":"PUSH"
+},{
+	"time":"9:23",
+	"total":10,
+	"Request":"DELETE"
+},{
+	"time":"9:24",
+	"total":65,
+	"Request":"GET"
+},{
+	"time":"9:24",
+	"total":29,
+	"Request":"PUT"
+},{
+	"time":"9:24",
+	"total":80,
+	"Request":"PUSH"
+},{
+	"time":"9:24",
+	"total":5,
+	"Request":"DELETE"
+},{
+	"time":"9:25",
+	"total":45,
+	"Request":"GET"
+},{
+	"time":"9:25",
+	"total":30,
+	"Request":"PUT"
+},{
+	"time":"9:25",
+	"total":76,
+	"Request":"PUSH"
+},{
+	"time":"9:25",
+	"total":0,
+	"Request":"DELETE"
+},{
+	"time":"9:26",
+	"total":55,
+	"Request":"GET"
+},{
+	"time":"9:26",
+	"total":40,
+	"Request":"PUT"
+},{
+	"time":"9:26",
+	"total":68,
+	"Request":"PUSH"
+},{
+	"time":"9:26",
+	"total":1,
+	"Request":"DELETE"
+},{
+	"time":"9:27",
+	"total":59,
+	"Request":"GET"
+},{
+	"time":"9:27",
+	"total":32,
+	"Request":"PUT"
+},{
+	"time":"9:27",
+	"total":90,
+	"Request":"PUSH"
+},{
+	"time":"9:27",
+	"total":11,
+	"Request":"DELETE"
+},{
+	"time":"9:28",
+	"total":52,
+	"Request":"GET"
+},{
+	"time":"9:28",
+	"total":33,
+	"Request":"PUT"
+},{
+	"time":"9:28",
+	"total":78,
+	"Request":"PUSH"
+},{
+	"time":"9:28",
+	"total":12,
+	"Request":"DELETE"
+},{
+	"time":"9:29",
+	"total":53,
+	"Request":"GET"
+},{
+	"time":"9:29",
+	"total":34,
+	"Request":"PUT"
+},{
+	"time":"9:29",
+	"total":69,
+	"Request":"PUSH"
+},{
+	"time":"9:29",
+	"total":10,
+	"Request":"DELETE"
+},{
+	"time":"9:30",
+	"total":40,
+	"Request":"GET"
+},{
+	"time":"9:30",
+	"total":30,
+	"Request":"PUT"
+},{
+	"time":"9:30",
+	"total":88,
+	"Request":"PUSH"
+},{
+	"time":"9:30",
+	"total":9,
+	"Request":"DELETE"
+},{
+	"time":"9:31",
+	"total":89,
+	"Request":"PUSH"
+},{
+	"time":"9:31",
+	"total":8,
+	"Request":"DELETE"
+},{
+	"time":"9:31",
+	"total":45,
+	"Request":"GET"
+},{
+	"time":"9:31",
+	"total":35,
+	"Request":"PUT"		
 }]

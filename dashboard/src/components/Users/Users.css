@@ -9,3 +9,8 @@
 .create {
 	margin-bottom: 1.5em;
  }
+
+ .example-input .ant-input {
+  width: 20px;
+  margin: 0 8px 8px 0;
+}
