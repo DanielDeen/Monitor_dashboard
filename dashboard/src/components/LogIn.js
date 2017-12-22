@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'dva';
 import { routerRedux } from 'dva/router';
-import { Form, Icon, Input, Button, Checkbox, Layout, Menu } from 'antd';
+import { Form, Icon, Input, Button, Checkbox, Layout, Menu, message } from 'antd';
 import styles from './LogIn.css';
 import { Link } from 'dva/router';
 
@@ -14,8 +14,12 @@ class LogIn extends React.Component {
     this.props.form.validateFields((err, values) => {
       if (!err) {
         console.log('Received values of form: ', values);
-        const w=window.open();
-        w.location.href='/#/monitor';
+        if (values.userName === "1" && (values.password === "2")) {
+            const w=window.open();
+            w.location.href='/#/monitor';
+        }else {
+            message.info('用户名或密码错误！');
+        }
       }
     });
   }

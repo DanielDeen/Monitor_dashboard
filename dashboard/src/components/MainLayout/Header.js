@@ -7,7 +7,7 @@ const { MonthPicker, RangePicker } = DatePicker;
 const menu = (
   <Menu>
     <Menu.Item key="0">
-      <a href="http://www.alipay.com/">用户详情</a>
+      <a href="http://www.alipay.com/">管理员设置</a>
     </Menu.Item>
     <Menu.Divider />
     <Menu.Item key="1">

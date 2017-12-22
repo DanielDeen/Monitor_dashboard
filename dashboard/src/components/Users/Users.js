@@ -4,6 +4,7 @@ import { routerRedux } from 'dva/router';
 import { Table, Pagination, Popconfirm, Button,Input,Col,Icon } from 'antd';
 import styles from './Users.css';
 import { PAGE_SIZE } from '../../constants';
+import UserModal from '../Modal/UserModal';
 
 function Users({ dispatch,list: dataSource,loading, total, page: current }) {
 
@@ -51,11 +52,11 @@ function Users({ dispatch,list: dataSource,loading, total, page: current }) {
       key: 'website',
     },
     {
-      title: '设置',
+      title: '用户管理',
       key: 'operation',
       render: (text, { id }) => (
         <span className={styles.operation}>
-          <a href="">编辑</a>
+          <UserModal />
           <Popconfirm title="确定?" onConfirm={deleteHandler.bind(null, id)}>
             <a href="">删除用户</a>
           </Popconfirm>
