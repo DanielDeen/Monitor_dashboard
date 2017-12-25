@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'dva';
 import styles from './IndexPage.css';
 import NodeModal from '../Modal/NodeModal';
+import AlarmModal from '../Modal/AlarmModal';
 import { Card, Col, Row } from 'antd';
 import { Tag,Table } from 'antd';
 
@@ -63,7 +64,10 @@ function IndexPage( {loaction} ) {
               </Row>
             </div>
             <div style={{ marginTop: 20 }}>
-            <h3>报警汇总</h3>
+            <div>
+            <h3 style={{ display: "inline" }}>报警汇总</h3>   
+            <AlarmModal />
+            </div>
             </div>
             <div style={{ marginTop: 15 }}>
             <Table columns={columns} dataSource={data} pagination={{ pageSize: 15 }} scroll={{ y: 320 }} />
