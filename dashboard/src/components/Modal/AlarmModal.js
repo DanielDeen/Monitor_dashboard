@@ -10,17 +10,17 @@ const data = [{
   key: '1',
   id: 1,
   name: 'swift-accout服务异常',
-  formula: 'value > 0',
+  formula: 'swift-accout.value > 0',
 }, {
   key: '2',
   id: 2,
   name: 'swift-audit服务异常',
-  formula: 'value > 0',
+  formula: 'swift-audit.value > 0',
 }, {
   key: '3',
   id: 3,
   name: 'swift-replicator服务异常',
-  formula: 'value > 0',
+  formula: 'swift-replicator.value > 0',
 }];
 
 
@@ -79,7 +79,7 @@ class AlarmModal extends React.Component {
 
   render() {
     return (
-      <div style={{ display: "inline",marginLeft: 1520 }}>
+      <div style={{ display: "inline",marginLeft: 1400 }}>
         <Button type="primary" onClick={this.showModal}>报警设置</Button>
         <Modal
           title="报警设置"

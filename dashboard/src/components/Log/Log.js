@@ -6,6 +6,7 @@ import HorizontalTimeline from '../timeline/HorizontalTimeline';
 import { Col, Row } from 'antd';
 import moment from 'moment'; 
 import LineChart from '../timeline/Line';
+import AlarmModal from '../Modal/AlarmModal';
 import { DatePicker } from 'antd';
 const { RangePicker } = DatePicker;
 
@@ -93,7 +94,7 @@ class Log extends React.Component{
 					    />
 					</Row>
 				</div>
-
+				<div style={{ marginLeft:"40px",marginRight: 40}}><Icon type="area-chart" />&nbsp;&nbsp;系统负载曲线</div>
 				<div style={{ marginLeft:"40px",marginRight: 40,marginTop: 15}}>  
 	                <LineChart />  
             	</div> 
@@ -117,14 +118,14 @@ class Log extends React.Component{
 				*/}
 				<div style={{ marginLeft:"40px",marginRight: 40,marginTop: 15}}>
 					<Row>
-						<Col span={8}><Icon type="shake" />
+						<div style={{ display: "inline" }}><Icon type="shake" />
 							&nbsp;&nbsp;Swift系统错误报警
-						</Col>
-						<Col span={11}/>
+						</div>
+						<AlarmModal />
 					</Row>
 				</div>
 
-				<div style={{ marginLeft:"40px",marginRight: 40,marginTop: 30}}>
+				<div style={{ marginLeft:"40px",marginRight: 40,marginTop: 20}}>
 					<Table columns={columns} dataSource={data} />
 				</div>
 			</div>

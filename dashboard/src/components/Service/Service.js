@@ -4,11 +4,18 @@ import { connect } from 'dva';
 import { routerRedux } from 'dva/router';
 import { Table,Icon,Tag,Card } from 'antd';
 import { Col, Row, Badge } from 'antd';
+import ServiceModal from '../Modal/ServiceModal';
 
 class Service extends React.Component{
 	render() {
 		return (
 			<div>
+
+				<div style={{ marginTop: 20 }}>
+	            	<h3 style={{ display: "inline" }}>各存储节点服务状态</h3>   
+	            	<ServiceModal />
+	            </div>
+
 			    <div style={{ marginTop: 20 }}> 
 			      	<Badge count={3}>
       					<Tag color="#108ee9">Storage_1</Tag>
