@@ -48,17 +48,17 @@ function IndexPage( {loaction} ) {
               <Row gutter={16}>
                 <Col span={8}>
                   <Card title="系统总存储" extra={<NodeModal />} >
-                    <p className={styles.normal}>30G</p>
+                    <p className={styles.normal}>120T</p>
                   </Card>
                 </Col>
                 <Col span={8}>
                   <Card title="系统已用存储" extra={<NodeModal />} >
-                    <p className={styles.normal}>10G</p>
+                    <p className={styles.normal}>1.8T</p>
                   </Card>
                 </Col>
                 <Col span={8}>
                 <Card title="系统剩余存储" extra={<NodeModal />} >
-                    <p className={styles.normal}>20G</p>
+                    <p className={styles.normal}>118T</p>
                   </Card>
                 </Col>
               </Row>

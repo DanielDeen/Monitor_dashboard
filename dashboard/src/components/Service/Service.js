@@ -17,19 +17,19 @@ class Service extends React.Component{
 	            </div>
 
 			    <div style={{ marginTop: 20 }}> 
-			      	<Badge count={3}>
+			      	<Badge count={1}>
       					<Tag color="#108ee9">Storage_1</Tag>
     				</Badge>系统服务状态
 			    </div>
 				<div style={{ background: '#ECECEC', padding: '5px', marginTop: 10 }}>
 				    <Row gutter={8}>
 				      <Col span={4}>
-				        <Card title="租户空间服务" >
-				        	<p className={styles.normal}>OK</p>
+				        <Card title="租户空间服务" className={styles.error}>
+				        	<p className={styles.normal}>FAILURE</p>
 				        </Card>
 				      </Col>
 				      <Col span={4}>
-				        <Card title="租户空间审计" className={styles.error}>
+				        <Card title="租户空间审计" >
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
@@ -39,12 +39,12 @@ class Service extends React.Component{
 				        </Card>
 				      </Col>
 				      <Col span={4}>
-				        <Card title="子存储空间服务" className={styles.error}>
+				        <Card title="子存储空间服务">
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
 				      <Col span={4}>
-				        <Card title="子存储空间审计" className={styles.error}>
+				        <Card title="子存储空间审计">
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
@@ -86,7 +86,7 @@ class Service extends React.Component{
 				    </Row>
 				</div>
 				<div style={{ marginTop: 20 }}> 
-			      	<Badge count={2}>
+			      	<Badge count={0}>
       					<Tag color="#108ee9">Storage_2</Tag>
     				</Badge>系统服务状态
 			    </div>
@@ -123,7 +123,7 @@ class Service extends React.Component{
 				        </Card>
 				      </Col>
 				      <Col span={4}>
-				        <Card title="子存储空间更新" className={styles.error}>
+				        <Card title="子存储空间更新">
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>
@@ -138,7 +138,7 @@ class Service extends React.Component{
 				        </Card>
 				      </Col>
 				      <Col span={4}>
-				        <Card title="对象复制" className={styles.error}>
+				        <Card title="对象复制">
 				        	<p className={styles.normal}>OK</p>
 				        </Card>
 				      </Col>

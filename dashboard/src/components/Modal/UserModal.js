@@ -51,7 +51,7 @@ class UserModal extends React.Component {
       <div>
         <a onClick={this.showModal}>编辑</a>
         <Modal
-          title="xx用户"
+          title="test"
           visible={this.state.visible}
           onOk={this.handleOk}
           onCancel={this.handleCancel}

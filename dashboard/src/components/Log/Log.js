@@ -36,6 +36,7 @@ const columns = [{
 function onChange(value, dateString) {
   console.log('Selected Time: ', value);
   console.log('Formatted Selected Time: ', dateString);
+  
 }
 
 function onOk(value) {
